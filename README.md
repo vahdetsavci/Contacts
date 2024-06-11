@@ -20,7 +20,7 @@ git clone https://github.com/vahdetsavci/Contacts.git
 
 Ardından **Contacts.sln** dosyasını **Visual Studio** uygulaması ile açın.
 
-Bu uygulama için bir adet tanımlı kullanıcı mevcut. Uygulamayı kullanmak için aşağıda yer alan bilgileri kullanarak giriş yapın.
+Bu uygulama için bir adet tanımlı kullanıcı mevcut. Giriş yapmak için aşağıda yer alan bilgileri kullanın.
 * **Kullanıcı Adı:** admin1
 * **Şifre:** 1
 
