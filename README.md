@@ -16,7 +16,7 @@ git clone https://github.com/vahdetsavci/Contacts.git
 ```
 
 ## Usage
-**SQL Server**'a bağlanın. Ardından _Contacts\Contacts\TSQL_ yolundaki SqlScript.sql dosyasınında bulunan **T-SQL** komutlarını çalıştırarak uygulama için Database'i hazır hale getirin. Bu işlemleri **SQL Server Management Studio** uygulaması ile kolayca yapabilirsiniz.
+**SQL Server**'a bağlanın. Ardından _Contacts\Contacts\TSQL_ yolundaki SqlScript.sql dosyasında bulunan **T-SQL** komutlarını çalıştırarak uygulama için Database'i hazır hale getirin. Bu işlemleri **SQL Server Management Studio** uygulaması ile kolayca yapabilirsiniz.
 
 Ardından **Contacts.sln** dosyasını **Visual Studio** uygulaması ile açın.
 
