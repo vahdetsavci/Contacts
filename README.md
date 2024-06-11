@@ -10,15 +10,19 @@ Bu bir telefon rehberi uygulamasıdır.
 |SQLScript.sql|
 
 ## Installation
-Öncelikle projeyi klonlayın
+Projeyi klonlayın
 ```
 git clone https://github.com/vahdetsavci/Contacts.git
 ```
 
 ## Usage
-Ardından projeyi **Visual Studio** programında açın.
+Contacts\Contacts\TSQL içerisindeki SqlScript.sql dosyasınında bulunan T-SQL komutlarını çalıştırarak uygulama için Database'i hazır hale getirin.
 
-**Kayıtlı Kullanıcı Adı:** admin1
-**Şifre:** 1
+Ardından **Contacts.sln** dosyasını **Visual Studio** uygulaması ile açın.
 
-**visual-studio, windows-forms-app, csharp-project, transact-sql,**
+Bu uygulama için bir adet tanımlı kullanıcı mevcut.
+* **Kullanıcı Adı:** admin1
+* **Şifre:** 1
+
+## LICENSE
+[MIT](LICENSE)
