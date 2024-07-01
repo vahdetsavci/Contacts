@@ -26,7 +26,9 @@ namespace Contacts
             int result = BLL.AddContact(txt_firstName.Text, txt_lastName.Text, txt_phoneI.Text, txt_phoneII.Text, txt_phoneIII.Text, txt_emailAddress.Text, txt_webSite.Text, txt_address.Text, txt_description.Text);
             if (result > 0)
             {
-                Helper.dataGrdViewUpdate();
+                if (Application.OpenForms["ListContacts"] != null)
+                    Helper.dataGrdViewUpdate();
+
                 MessageBox.Show("Kişi eklendi!", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
